@@ -33,7 +33,6 @@ const intersectionOptions = {
   threshold: 0.8,
 };
 function intersectionCallback(entries, potat) {
-  //console.log(entries);
   if(entries[0].isIntersecting) {
     handleIntersection(entries[0].target);
   }
