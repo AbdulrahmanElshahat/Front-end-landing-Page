@@ -1,4 +1,4 @@
-<h1>Landing Page Progect</h1>
+<h1>Landing Page Project</h1>
 
 
 This Is my first project as a fron end devoloper .. 
