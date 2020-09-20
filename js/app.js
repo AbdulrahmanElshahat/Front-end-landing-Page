@@ -148,6 +148,13 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+const theButton = document.getElementsByClassName('toggleButton')[0];
+const navbarButton = document.getElementsByClassName('magicList')[0];
+
+theButton.addEventListener('click', () => {
+  navbarButton.classList.toggle('active')
+})
+
 // build the nav
 
 // Add class 'active' to section when near top of viewport

@@ -70,6 +70,7 @@ section {
     margin: 0;
     text-align: right;
     display: flex;
+
 }
 
 .navbar__menu li {
@@ -103,6 +104,85 @@ section {
   pointer-events: none;
 }
 
+.toggleButton {
+    position: right;
+    top: 2rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #00156E;
+
+}
+
+.toggleButton .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media ( max-width: 600px){
+
+  .navbar__container {
+
+  }
+  /* ---- Module Rules ---- */
+
+  /* Navigation Styles*/
+  .navbar__menu ul {
+      padding-left: 0;
+      margin: 0;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .navbar__menu li {
+      display: inline-block;
+  }
+
+  .navbar__menu .menu__link {
+      display: block;
+      padding: 1em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #00156E;
+  }
+
+  .navbar__menu .menu__link:hover {
+      background: #ccc;
+      color: #00156E;
+      transition: ease 0.3s all;
+  }
+
+  .navbar__menu .menu__link.nav-item--active:hover {
+      background: #333;
+      color: #fff;
+  }
+
+
+  .navbar__menu .nav-item--active {
+    background: #00156E;
+    color: #fff;
+    transition: ease 0.3s all;
+    pointer-events: none;
+  }
+  .magicList.active {
+    display: flex;
+  }
+  .toggleButton {
+         display: flex;
+     }
+
+}
+
 /* Header Styles */
 .page__header {
     background: #fff;
@@ -110,6 +190,8 @@ section {
     top: 0;
     width: 100%;
     z-index: 5;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Footer Styles */
@@ -261,12 +343,12 @@ img {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #B0B4B4; 
+  background-color: #B0B4B4;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 #myBtn:hover {
