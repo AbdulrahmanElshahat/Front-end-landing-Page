@@ -127,7 +127,7 @@ section {
     border-radius: 10px;
 }
 
-@media ( max-width: 600px){
+@media ( max-width: 970px){
 
   .navbar__container {
 
@@ -174,8 +174,11 @@ section {
     transition: ease 0.3s all;
     pointer-events: none;
   }
-  .magicList.active {
+  .magicList {
     display: none;
+  }
+  .magicList.active {
+    display: flex;
   }
   .toggleButton {
          display: flex;
