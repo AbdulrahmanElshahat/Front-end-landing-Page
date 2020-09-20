@@ -4,3 +4,7 @@ Udacity gave me the starter code and I completed Java script code and added dyna
 I tried to make the site real project for a real reuseme of mine so I edited HTML and added  my own sections.
 
 Basicly I Just added Few lines of code to CSS starter code. 
+
+Most of work was on java script.
+
+finally I edited the nav bar to  be humberger menu in phones and tablet .
