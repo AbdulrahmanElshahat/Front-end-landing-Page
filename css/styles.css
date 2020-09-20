@@ -175,11 +175,12 @@ section {
     pointer-events: none;
   }
   .magicList.active {
-    display: flex;
+    display: none;
   }
   .toggleButton {
          display: flex;
      }
+
 
 }
 
