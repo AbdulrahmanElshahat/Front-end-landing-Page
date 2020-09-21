@@ -1,13 +1,11 @@
-# Landing Page Project
+<h1>Landing Page Project</h1>
+This Is my first project as a fron end devoloper .. 
+Udacity gave me the starter code and I completed Java script code and added dynamicity to the code  and added responsive navigation bar 
+I tried to make the site real project for a real reuseme of mine so I edited HTML and added  my own sections.
+Basicly I Just added Few lines of code to CSS starter code. 
 
-## Table of Contents
+Most of work was on java script.
 
-* [Instructions](#instructions)
+and here is a good place to thank https://github.com/aladdinhub for her vedios in which she explained the logic she used which i loved it and written my code on the same logic 
 
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+finally I edited the nav bar to  be humberger menu in phones and tablet .
