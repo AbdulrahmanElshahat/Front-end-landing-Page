@@ -10,4 +10,6 @@ Basicly I Just added Few lines of code to CSS starter code.
 
 Most of work was on java script.
 
+and here is a good place to thank https://github.com/aladdinhub for her vedios in which she explained the logic she used which i loved it and written my code on the same logic 
+
 finally I edited the nav bar to  be humberger menu in phones and tablet .
